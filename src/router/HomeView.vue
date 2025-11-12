@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {useHomeStore} from "@/stores/home-store.ts";
+import {useHomeStore} from "@/stores/home-store";
 import {storeToRefs} from "pinia";
 
 const store = useHomeStore()
